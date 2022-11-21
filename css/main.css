@@ -348,6 +348,7 @@ button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-left: 100px;
 }
 
 .reasons .reason .square img {
@@ -517,7 +518,13 @@ button {
     vertical-align: top;
     display: inline-block;
 }
-
+.square{
+    justify-content: center;
+}
+.icon {
+    width: 55px;
+    height: 60px;
+}
 .delivery .left-block {
     margin-right: 95px;
 }
@@ -596,3 +603,4 @@ footer {
     background-color: #333;
     height: 50px;
 }
+
